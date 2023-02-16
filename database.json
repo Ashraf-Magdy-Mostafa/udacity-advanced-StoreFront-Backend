@@ -1,0 +1,20 @@
+{"defaultENV":{"ENV":"NODE_ENV"},
+    "dev": {
+      "driver": "pg",
+      "host": "localhost",
+      "database":{"ENV":"pg_database"} ,
+      "port":{"ENV":"pg_port"},
+      "user": {"ENV":"pg_user"},
+      "password": {"ENV":"pg_password"}
+    },
+ 
+    "test": {
+      "driver": "pg",
+      "host": "localhost",
+      "database":{"ENV":"TEST_DB"} ,
+      "port":{"ENV":"pg_port"},
+      "user": {"ENV":"pg_user"},
+      "password": {"ENV":"pg_password"}
+    }
+  }
+

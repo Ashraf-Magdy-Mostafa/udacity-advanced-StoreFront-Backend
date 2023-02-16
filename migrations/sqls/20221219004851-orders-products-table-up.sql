@@ -1,0 +1,2 @@
+/* Replace with your SQL commands */
+CREATE TABLE orders_products (id SERIAL PRIMARY KEY,order_id integer REFERENCES orders(id)ON DELETE CASCADE ON UPDATE CASCADE,product_id integer REFERENCES products(id)ON DELETE CASCADE ON UPDATE CASCADE,quantity integer)

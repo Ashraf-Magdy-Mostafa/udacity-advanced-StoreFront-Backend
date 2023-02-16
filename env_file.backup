@@ -1,0 +1,14 @@
+   
+   pg_host=localhost
+      pg_database= store
+      TEST_DB=test
+      pg_port=5432
+      pg_user=admin
+      pg_password=mypassword
+      PEPPER=egy
+      SALT=10
+      TOKEN_SECRET=secretstring
+      NODE_ENV=dev
+      POSTGRES_USER=admin
+      POSTGRES_PASSWORD=mypassword
+      
